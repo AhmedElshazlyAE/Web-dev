@@ -1,0 +1,175 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="overlay">
+        <h1 id="title">Game Galaxy</h1>
+        <p id="description">Thank you for taking the time to help us improve the platform</p>
+        <form id="survey-form">
+          <div class="forum">
+          <label for="name" id="name-label">Name<input type="text" id ="name" placeholder = "Enter your Name" required /></label>
+          <label for="email" id="email-label" >Email<input type="email" id ="email" placeholder = "Enter your Email"required /></label>
+          <label for="number" id="number-label">Age<input id="number" type="number" name="age" min="13" max="120" placeholder = "Enter your Age"required /></label>
+          <label for="dropdown">Which option best describes your current role or status as a gamer?
+            <select id="dropdown" required>
+              <option value="">Select current status</option>
+              <option value="1">Casual gamer</option>
+              <option value="2">Hardcore gamer</option>
+              <option value="3">Professional gamer (eSports)</option>
+              <option value="4">Streamer/Content creator</option>
+            </select>
+            <legend>Would you recommend Game Galaxy to a friend?</legend>
+            <label><input type="radio" value="option1" class="inline" name = "recommend" require> Definitely</label>
+            <label><input type="radio" value="option2" class="inline" name = "recommend" required> Maybe</label>
+            <label><input type="radio" value="option3" class="inline" name = "recommend" required> Not sure</label>
+            </select>
+            </select>
+            <legend>Which game categories do you enjoy the most? (Select all that apply)</legend>
+            <label><input type="checkbox" value="option4" class="inline"> Action</label>
+            <label><input type="checkbox" value="option5" class="inline"> Adventure</label>
+            <label><input type="checkbox" value="option6" class="inline"> Role-playing (RPG)</label>
+            <label><input type="checkbox" value="option7" class="inline"> Strategy</label>
+            <label><input type="checkbox" value="option8" class="inline"> Sports</label>
+            <label><input type="checkbox" value="option9" class="inline"> Horror</label>
+            <label><input type="checkbox" value="option10" class="inline"> Fighting</label>
+            <label><input type="checkbox" value="option11" class="inline"> Puzzle</label>
+            <label><input type="checkbox" value="option12" class="inline" > Simulation</label>
+            </select>
+            <label for="comments">Any comments or suggestions?
+            <textarea id="comments" name="bio" rows="3" cols="30" placeholder="Enter your comment here"></textarea>
+            </label>
+            <input type="submit" id="submit" />
+            </div>
+            
+
+        </form>
+        </div>
+
+  </body>
+ 
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+body {
+    margin-top: -5em; /* Adjust the value as needed */
+    font-family: Tahoma;
+    background-image: url('https://images.unsplash.com/photo-1534423861386-85a16f5d13fd?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    padding-top: 100px;
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-size: 18px;
+    color: white;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+}
+
+form {
+    width: 60vw;
+    max-width: 1000px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+}
+
+input,
+textarea,
+select {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+    border-radius: 4px;
+    border: 0;
+}
+
+input,select {
+    height: 2.3em;
+}
+
+fieldset:last-of-type {
+    border-bottom: none;
+}
+
+label {
+    display: block;
+    margin: 1.5rem 0;
+}
+
+legend {
+    display: block;
+    margin: 1.5rem 0;
+}
+
+.inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+}
+
+h1, p {
+    text-align: center;
+}
+h1{
+    margin-top: 1em;
+}
+p{
+    margin-top:-1em;
+    padding-bottom:1em;
+}
+
+.forum {
+    background-color: rgba(255, 101, 0, 70%);
+    padding: 2em;
+    padding-top: .1em;
+    padding-bottom: .1em;
+    width: auto;
+    height: auto;
+    margin: 1em auto;
+    border-radius: 10px;
+    font: sans-serif;
+}
+
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    border: 0;
+}
+
+input[type="radio"] {
+    width: 20px;
+    height: 20px;
+    border: 0;
+}
+
+input[type="submit"] {
+  display: block;
+  font-size: 1rem;
+  background-color: rgb(0,190,0);
+  border-color: white;
+  min-width: 300px;
+  color: white;
+  font-weight: bold;
+}
+
+** end of undefined **
+
