@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>
+      Palindrome
+    </title>
+  </head>
+  <body>
+    
+    <h1>Palindrome Checker</h2>
+    <p class = "postitle">by Ahmed Elshazly<p>
+    <div class = "container">
+      <p class = "instruction">Enter in text to check for a palindrome:</p>
+      <input id="text-input" class = "input"/>
+      <button id = "check-btn" class= "btn">Check</button>
+      <p id = "result" class = "result"></p>
+    </div>
+    <script src="./script.js"></script>
+  </body>

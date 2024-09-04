@@ -1,0 +1,54 @@
+body {
+  background-color: #F5F5F5;
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  color: #424242;
+}
+h1 {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.postitle {
+  text-align: center;
+  padding-top: -10px;
+  font-size: .7em;
+  font-family: cursive;
+}
+
+.container {
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 15px 25px rgba(34, 151, 153, 0.2); /* Adds a shadow effect */
+
+  width: fit-content;
+  margin: 20px auto;
+  text-align: center;
+  background-color: #229799DD;
+}
+.instruction{
+  font-size: .8em;
+  font-family: cursive;
+  margin-top: -2px; 
+}
+.btn{
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a shadow effect */
+  border: 1px solid #FABC3F;
+  background-color: 
+#FABC3F;
+border-radius: 5px;
+padding-right: 30px auto;
+color: #424242;
+
+}
+
+.input{
+  border-radius: 5px;
+  border: 0px;
+  padding-right: 50px;
+  background-color: #F5F5F5;
+}
+
+.result{
+  color: #F5F5F5;
+  font-size: 1em;
+}
